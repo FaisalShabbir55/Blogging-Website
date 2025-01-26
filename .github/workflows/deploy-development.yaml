@@ -7,7 +7,7 @@ jobs:
   develop-build-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Chekcout Repo
+      - name: Checkout Repo
         uses: actions/checkout@v4 
 
       - name: Build Website With Parcel 
