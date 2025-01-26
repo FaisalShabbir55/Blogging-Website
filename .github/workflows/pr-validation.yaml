@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v4
-        
+        uses: actions/checkout@v3
+
       - name: Lint HTML and CSS
         run: |
           npx htmlhint "**/*.html"
