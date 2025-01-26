@@ -16,4 +16,4 @@ jobs:
           npx stylelint "**/*.css"
 
       - name: Build Website
-        run: npx parcel build "./src/index.html" --dist-dir "./dev" --public-url "/Blogging-Website/"
+        run: npx parcel build "./src/home.html" --dist-dir "./dev" --public-url "/Blogging-Website/"
